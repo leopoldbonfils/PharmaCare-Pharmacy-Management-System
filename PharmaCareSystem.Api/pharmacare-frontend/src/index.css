@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 font-sans antialiased;
+  }
+  
+  * {
+    @apply transition-colors duration-200;
+  }
+}
+
+@layer components {
+  /* Custom scrollbar */
+  .custom-scrollbar::-webkit-scrollbar {
+    @apply w-2 h-2;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-gray-100 rounded-full;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-gray-300 rounded-full hover:bg-gray-400;
+  }
+
+  /* Card shadow */
+  .card-shadow {
+    @apply shadow-sm hover:shadow-md;
+  }
+
+  /* Input focus */
+  .input-focus {
+    @apply focus:ring-2 focus:ring-primary-500 focus:border-primary-500;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

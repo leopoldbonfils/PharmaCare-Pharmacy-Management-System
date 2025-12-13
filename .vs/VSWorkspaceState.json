@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\PharmaCareSystem.Api",
+    "\\PharmaCareSystem.Api\\pharmacare-frontend",
+    "\\PharmaCareSystem.Api\\pharmacare-frontend\\src",
+    "\\PharmaCareSystem.Api\\PharmaCareSystem.Api",
+    "\\PharmaCareSystem.Api\\PharmaCareSystem.Api\\Middleware"
+  ],
+  "SelectedNode": "\\PharmaCareSystem.Api\\PharmaCareSystem.Api\\appsettings.json",
+  "PreviewInSolutionExplorer": false
+}
